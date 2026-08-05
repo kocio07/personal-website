@@ -1,5 +1,5 @@
 let smallcircle = document.querySelector('.smallcircle');
-let biggercircle = dpcuemnt.querySelector('biggercircle');
+let biggercircle = document.querySelector('.biggercircle');
 
 document.addEventListener('mousemove',(e) => {
     let x = e.clientX;
@@ -18,10 +18,10 @@ let links = Array.from(document.querySelectorAll('a, button'));
 
 links.forEach((link) => {
   link.addEventListener('mouseover', () => {
-    innerCursor.classList.add('grow');
+    smallcircle.classList.add('grow');
   });
   link.addEventListener('mouseleave', () => {
-    innerCursor.classList.remove('grow');
+    smallcircle.classList.remove('grow');
   });
 });
 

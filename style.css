@@ -1,3 +1,14 @@
+body{
+    cursor:none;
+    isolation: isolate;
+    background-color:#1e1e2e;
+    color:#cdd6f4;
+}
+
+a, button, input{
+    cursor: none !important;
+}
+
 
 .smallcircle {
     position: fixed;
@@ -9,9 +20,9 @@
     border-radius: 50%;
     pointer-events: none;
     transform: translate(-50%,-50%);
-    transition: width 0.3s, height 0.3s;
+    transition: transform 0.2s ease-out;
     mix-blend-mode: difference;
-    z-index: 9999;
+    z-index: 99999;
 }
 
 .biggercircle {
@@ -25,10 +36,40 @@
     pointer-events: none;
     transform: translate(-50%,-50%);
     mix-blend-mode: difference;
-    z-index: 9998;
+    z-index: 99998;
 }
 
-.inner-cursor-grow {
-    width:25px;
-    height: 25px;
+.smallcircle.grow {
+    transform: translate(-50%,-50%) scale(2.5);
+
+}
+
+.navbar {
+    background-color: #313244 ;
+    overflow:hidden;
+    z-index: 1000;
+    border-radius: 10px;
+
+}
+.navbar a{
+    float: left;
+    color:#cdd6f4;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+
+
+}
+.navbar a:hover {
+    background-color:#45475a;
+    color:#cdd6f4;
+
+}
+.navbar a.active {
+    background-color:#585b70;
+    color:#cdd6f4;
+}
+.contactb{
+    text-align: center;
 }
