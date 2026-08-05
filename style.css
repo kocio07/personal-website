@@ -1,4 +1,6 @@
+
 body{
+    font-family: 'Chewy';
     cursor:none;
     isolation: isolate;
     background-color:#1e1e2e;
@@ -23,7 +25,7 @@ a, button, input{
     transition: transform 0.2s ease-out;
     mix-blend-mode: difference;
     z-index: 99999;
-}
+}s
 
 .biggercircle {
     position:fixed;
@@ -72,4 +74,19 @@ a, button, input{
 }
 .contactb{
     text-align: center;
+}
+.aboutb{
+    text-align:center;
+}
+
+.tab-content{
+    display: none;
+}
+.tab-content.active{
+    display:block;
+
+}
+.tab-buttons{
+    background-color: #313244;
+    color:#cdd6f4
 }
