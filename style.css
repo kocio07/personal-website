@@ -1,6 +1,6 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;800&display=swap');
 body{
-    font-family: 'Chewy';
+    font-family: 'Outfit';
     cursor:none;
     isolation: isolate;
     background-color:#1e1e2e;
@@ -47,13 +47,33 @@ a, button, input{
 }
 
 .navbar {
-    background-color: #313244 ;
-    overflow:hidden;
-    z-index: 1000;
-    border-radius: 10px;
+    justify-content:  center;
+    padding: 8px 16px;
+    margin: 0 auto;
+    margin-bottom:10px;
+    text-align:center;
+   background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 
+    0 8px 32px rgba(0, 0, 0, 0.1),
+    inset 0 1px 0 rgba(255, 255, 255, 0.5),
+    inset 0 -1px 0 rgba(255, 255, 255, 0.1),
+    inset 0 0 0px 0px rgba(255, 255, 255, 0);
+  position: relative;
+  overflow: hidden;
+  width:100%;
 
 }
+
+
 .navbar a{
+    border: 1px solid transparent;
+    border-radius: 30px;
+    transition: all 0.2s ease-in-out;
+      display: inline-block;
     float: left;
     color:#cdd6f4;
     text-align: center;
@@ -64,6 +84,17 @@ a, button, input{
 
 }
 .navbar a:hover {
+    border-radius: 30px;
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 
+    0 8px 32px rgba(0, 0, 0, 0.1),
+    inset 0 1px 0 rgba(255, 255, 255, 0.5),
+    inset 0 -1px 0 rgba(255, 255, 255, 0.1),
+    inset 0 0 0px 0px rgba(255, 255, 255, 0);
+  position: relative;
+  overflow: hidden;
     background-color:#45475a;
     color:#cdd6f4;
 
@@ -79,110 +110,111 @@ a, button, input{
     text-align:center;
 }
 
-.tab-content{
-    display: none;
-}
-.tab-content.active{
-    display:block;
-
-}
-.tab-buttons{
-    background-color: #313244;
-    color:#cdd6f4
+.wholesite{
+    max-width: 950px; 
+    margin: 0 auto;
 }
 
-/* Grid */
 
-.library{
-    display: grid;
-    grid-template-columns: repeat(auto-fill minmax(160px, 1fr));
-    gap: 22px;
-}
-.tab-content{ display:none;}
-.tab-content.active{display:block; }
+.grid{
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 150px 200px;
+    gap:10px;
 
-
-/* ta okladka jakby */
-.item{
-    position: relative;
-    aspect-ratio: 2/3;
-    border-radius: 3px;
-    overflow: hidden;
-    background: #6c7086;
-    cursor: none;
-    box-shadow: 0px 16px rgba(0,0,0,0.35);
 
 }
-.item-cover{
-    width:100%;
-    height:100%;
-    object-fit: cover;
-    display:block;
-
-}
-
-.item.cover-placeholder{
-    width: 100%;
-    height: 100%;
-    display:flex;
-    align-items:ceonter;
+.welcomed{
+    padding-bottom:5px;
+    padding-top:5px;
+    padding-left:5px;
+    padding-right: 5px;
     justify-content: center;
-    text-align: center;
-    padding: 12px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 10px;
-    color: #cdd6f4;
-    background: #6c7086;
+    background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 
+    0 8px 32px rgba(0, 0, 0, 0.1),
+    inset 0 1px 0 rgba(255, 255, 255, 0.5),
+    inset 0 -1px 0 rgba(255, 255, 255, 0.1),
+    inset 0 0 0px 0px rgba(255, 255, 255, 0);
+  position: relative;
+  overflow: hidden;
 }
-.mycommentthingy{
-
-    position:absolute;
-    left:0;right:0;bottom:0;
-    background:#6c7086;
-    color:#cdd6f4;
-    transform:translateY(100%);
-    transition:transform 0.32s cubic-bezier(.22,.9,.32,1);
-    padding: 14px 14px 12px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+.welcomed1{
     
-}
-
-.item:hover .mycommentthingy,
-.item:focus-within .mycommentthingy{
-    transform: translateY(0);
-
-}
-
-.mycommentthingy.title{
-    font-family:'Courier New', Courier, monospace;
-    font-weight: 600;
-    font-size: 0.95rem;
-    margin: 0 0 4px;
-    color:#cdd6f4;
-    
+    background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 
+    0 8px 32px rgba(0, 0, 0, 0.1),
+    inset 0 1px 0 rgba(255, 255, 255, 0.5),
+    inset 0 -1px 0 rgba(255, 255, 255, 0.1),
+    inset 0 0 0px 0px rgba(255, 255, 255, 0);
+  position: relative;
+  overflow: hidden;
 
 }
+.welcomed2{
+   
+    background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 
+    0 8px 32px rgba(0, 0, 0, 0.1),
+    inset 0 1px 0 rgba(255, 255, 255, 0.5),
+    inset 0 -1px 0 rgba(255, 255, 255, 0.1),
+    inset 0 0 0px 0px rgba(255, 255, 255, 0);
+  position: relative;
+  overflow: hidden;
+}
 
-  .mycommentthingy.note{
-    font-size: 0.72rem;
-    line-height: 1.4;
-    margin: 0;
-    color: #4a4130;
-  }
-
-    .mycommentthingy.stamp{
-    display:inline-block;
-    margin-top: 6px;
-    font-size: 0.65rem;
-    letter-spacing: 0.05em;
-    color: var(--teal);
-    border: 1px solid var(--teal);
-    padding: 2px 6px;
-    border-radius: 2px;
-
-
-
-
-    
-  }
+.welcomed3{
+    background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 
+    0 8px 32px rgba(0, 0, 0, 0.1),
+    inset 0 1px 0 rgba(255, 255, 255, 0.5),
+    inset 0 -1px 0 rgba(255, 255, 255, 0.1),
+    inset 0 0 0px 0px rgba(255, 255, 255, 0);
+  position: relative;
+  overflow: hidden;
+}
+.welcomed4{
+    background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 
+    0 8px 32px rgba(0, 0, 0, 0.1),
+    inset 0 1px 0 rgba(255, 255, 255, 0.5),
+    inset 0 -1px 0 rgba(255, 255, 255, 0.1),
+    inset 0 0 0px 0px rgba(255, 255, 255, 0);
+  position: relative;
+  overflow: hidden;
+}
+.welcomed5{
+    background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 
+    0 8px 32px rgba(0, 0, 0, 0.1),
+    inset 0 1px 0 rgba(255, 255, 255, 0.5),
+    inset 0 -1px 0 rgba(255, 255, 255, 0.1),
+    inset 0 0 0px 0px rgba(255, 255, 255, 0);
+  position: relative;
+  overflow: hidden;
+}
 
