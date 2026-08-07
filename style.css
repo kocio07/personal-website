@@ -273,11 +273,11 @@ a, button, input{
 }
 
 a {
-  color:#6c7086;
+  color: #74c7ec;
   text-decoration: none;
 }
 a:hover{
-  color:#585b70;
+  color:#89dceb;
 }
 
 .grid > div:nth-child(1) { grid-area: welcome; }
