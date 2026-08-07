@@ -39,4 +39,10 @@ function openTab(tabId) {
   event.currentTarget.classList.add('active');
 }
 
+const grid = document.querySelector('.grid');
+new Sortable(grid, {
+  animation: 200,
+  ghostClass: 'ghost',
+  dragClass: 'dragging'
+});
 
