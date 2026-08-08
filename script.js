@@ -40,9 +40,22 @@ function openTab(tabId) {
 }
 
 const grid = document.querySelector('.grid');
+if (grid) {
 new Sortable(grid, {
-  animation: 200,
+  animation: 300,
+  ghostClass: 'ghost',
+  dragClass: 'dragging',
+});
+}
+
+const grida = document.querySelector('.grida');
+if (grida){
+new Sortable(grida, {
+  animation: 300,
   ghostClass: 'ghost',
   dragClass: 'dragging'
 });
+}
+
+
 

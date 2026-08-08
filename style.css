@@ -111,6 +111,7 @@ a, button, input{
 }
 
 .wholesite{
+    min-height: 100vh;
     max-width: 950px; 
     margin: 0 auto;
 }
@@ -286,3 +287,205 @@ a:hover{
 .grid > div:nth-child(4) { grid-area: hobbies; }
 .grid > div:nth-child(5) { grid-area: contact; }
 
+.grida{
+  display:grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 200px 200px 100px 200px 200px;
+    gap:10px;
+    grid-template-areas:
+      "box1 box1 box2 box2 box2"
+      "box3 box4 box4 box5 box5"
+      "box3 box6 box6 box6 box7"
+      "box3 box6 box6 box6 box7"
+      "box8 box8 box8 box9 box9";
+}
+.aboutd{
+   padding-bottom:5px;
+    padding-top:5px;
+    padding-left:10px;
+    padding-right: 10px;
+    justify-content: center;
+  transition: transform 0.2s ease;
+    background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 
+    0 8px 32px rgba(0, 0, 0, 0.1),
+    inset 0 1px 0 rgba(255, 255, 255, 0.5),
+    inset 0 -1px 0 rgba(255, 255, 255, 0.1),
+    inset 0 0 0px 0px rgba(255, 255, 255, 0);
+  position: relative;
+  overflow: hidden;
+}
+.aboutd1{
+   padding-bottom:5px;
+    padding-top:5px;
+    padding-left:10px;
+    padding-right: 10px;
+    justify-content: center;
+  transition: transform 0.2s ease;
+    background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 
+    0 8px 32px rgba(0, 0, 0, 0.1),
+    inset 0 1px 0 rgba(255, 255, 255, 0.5),
+    inset 0 -1px 0 rgba(255, 255, 255, 0.1),
+    inset 0 0 0px 0px rgba(255, 255, 255, 0);
+  position: relative;
+  overflow: hidden;
+}
+.aboutd2{
+   padding-bottom:5px;
+    padding-top:5px;
+    padding-left:10px;
+    padding-right: 10px;
+    justify-content: center;
+  transition: transform 0.2s ease;
+    background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 
+    0 8px 32px rgba(0, 0, 0, 0.1),
+    inset 0 1px 0 rgba(255, 255, 255, 0.5),
+    inset 0 -1px 0 rgba(255, 255, 255, 0.1),
+    inset 0 0 0px 0px rgba(255, 255, 255, 0);
+  position: relative;
+  overflow: hidden;
+}
+.aboutd3{
+   padding-bottom:5px;
+    padding-top:5px;
+    padding-left:10px;
+    padding-right: 10px;
+    justify-content: center;
+  transition: transform 0.2s ease;
+    background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 
+    0 8px 32px rgba(0, 0, 0, 0.1),
+    inset 0 1px 0 rgba(255, 255, 255, 0.5),
+    inset 0 -1px 0 rgba(255, 255, 255, 0.1),
+    inset 0 0 0px 0px rgba(255, 255, 255, 0);
+  position: relative;
+  overflow: hidden;
+}
+.aboutd4{
+   padding-bottom:5px;
+    padding-top:5px;
+    padding-left:10px;
+    padding-right: 10px;
+    justify-content: center;
+  transition: transform 0.2s ease;
+    background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 
+    0 8px 32px rgba(0, 0, 0, 0.1),
+    inset 0 1px 0 rgba(255, 255, 255, 0.5),
+    inset 0 -1px 0 rgba(255, 255, 255, 0.1),
+    inset 0 0 0px 0px rgba(255, 255, 255, 0);
+  position: relative;
+  overflow: hidden;
+}
+.aboutd5{
+   padding-bottom:5px;
+    padding-top:5px;
+    padding-left:10px;
+    padding-right: 10px;
+    justify-content: center;
+  transition: transform 0.2s ease;
+    background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 
+    0 8px 32px rgba(0, 0, 0, 0.1),
+    inset 0 1px 0 rgba(255, 255, 255, 0.5),
+    inset 0 -1px 0 rgba(255, 255, 255, 0.1),
+    inset 0 0 0px 0px rgba(255, 255, 255, 0);
+  position: relative;
+  overflow: hidden;
+}
+.aboutd6{
+   padding-bottom:5px;
+    padding-top:5px;
+    padding-left:10px;
+    padding-right: 10px;
+    justify-content: center;
+  transition: transform 0.2s ease;
+    background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 
+    0 8px 32px rgba(0, 0, 0, 0.1),
+    inset 0 1px 0 rgba(255, 255, 255, 0.5),
+    inset 0 -1px 0 rgba(255, 255, 255, 0.1),
+    inset 0 0 0px 0px rgba(255, 255, 255, 0);
+  position: relative;
+  overflow: hidden;
+}
+.aboutd7{
+   padding-bottom:5px;
+    padding-top:5px;
+    padding-left:10px;
+    padding-right: 10px;
+    justify-content: center;
+  transition: transform 0.2s ease;
+    background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 
+    0 8px 32px rgba(0, 0, 0, 0.1),
+    inset 0 1px 0 rgba(255, 255, 255, 0.5),
+    inset 0 -1px 0 rgba(255, 255, 255, 0.1),
+    inset 0 0 0px 0px rgba(255, 255, 255, 0);
+  position: relative;
+  overflow: hidden;
+}
+.aboutd8{
+   padding-bottom:5px;
+    padding-top:5px;
+    padding-left:10px;
+    padding-right: 10px;
+    justify-content: center;
+  transition: transform 0.2s ease;
+    background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 
+    0 8px 32px rgba(0, 0, 0, 0.1),
+    inset 0 1px 0 rgba(255, 255, 255, 0.5),
+    inset 0 -1px 0 rgba(255, 255, 255, 0.1),
+    inset 0 0 0px 0px rgba(255, 255, 255, 0);
+  position: relative;
+  overflow: hidden;
+}
+
+.grida > div:nth-child(1) { grid-area: box1; }
+.grida> div:nth-child(2) { grid-area: box2; }
+.grida > div:nth-child(3) { grid-area: box3; }
+.grida> div:nth-child(4) { grid-area: box4; }
+.grida> div:nth-child(5) { grid-area: box5; }
+.grida> div:nth-child(6) { grid-area: box6; }
+.grida> div:nth-child(7) { grid-area: box7; }
+.grida> div:nth-child(8) { grid-area: box8; }
+.grida> div:nth-child(9) { grid-area: box9; }
