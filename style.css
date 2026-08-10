@@ -501,8 +501,8 @@ a:hover{
       "boxh1 boxh1 boxh1 boxh2 boxh2 boxh2"
       "boxh3 boxh8 boxh4 boxh2 boxh2 boxh2"
       "boxh3 boxh8 boxh4 boxh2 boxh2 boxh2"
-      "boxh5 boxh8 boxh6 boxh6 boxh6 boxh7"
-      "boxh5 boxh8 boxh6 boxh6 boxh6 boxh7";
+      "boxh5 boxh9 boxh6 boxh6 boxh6 boxh7"
+      "boxh5 boxh9 boxh6 boxh6 boxh6 boxh7";
 }
 
 .hobbiesd{
@@ -666,7 +666,26 @@ a:hover{
   position: relative;
   overflow: hidden;
 }
-
+.hobbiesd8{
+     padding-bottom:5px;
+    padding-top:5px;
+    padding-left:10px;
+    padding-right: 10px;
+    justify-content: center;
+  transition: transform 0.2s ease;
+    background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 
+    0 8px 32px rgba(0, 0, 0, 0.1),
+    inset 0 1px 0 rgba(255, 255, 255, 0.5),
+    inset 0 -1px 0 rgba(255, 255, 255, 0.1),
+    inset 0 0 0px 0px rgba(255, 255, 255, 0);
+  position: relative;
+  overflow: hidden;
+}
 .gridh > div:nth-child(1) { grid-area: boxh1; }
 .gridh> div:nth-child(2) { grid-area: boxh2; }
 .gridh > div:nth-child(3) { grid-area: boxh3; }
@@ -675,3 +694,4 @@ a:hover{
 .gridh> div:nth-child(6) { grid-area: boxh6; }
 .gridh> div:nth-child(7) { grid-area: boxh7; }
 .gridh> div:nth-child(8) { grid-area: boxh8; }
+.gridh> div:nth-child(9) { grid-area: boxh9; }
