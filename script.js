@@ -56,6 +56,36 @@ new Sortable(grida, {
   dragClass: 'dragging'
 });
 }
+const gridh = document.querySelector('.gridh');
+if (gridh){
+new Sortable(gridh, {
+  animation: 300,
+  ghostClass: 'ghost',
+  dragClass: 'dragging'
+});
+}
+
+const buttons = document.querySelectorAll('.tabbutton');
+const projects = document.querySelectorAll('.projectcard');
+
+buttons.forEach(button => {
+  button.addEventListener('click', () => {
+    
+    const category = button.dataset.category;
+
+    
+    buttons.forEach(btn => btn.classList.remove('a'));
+    button.classList.add('a');
+
+    projects.forEach(card => {
+      if (category === 'all' || card.classList.contains(category)) {
+        card.style.display = 'block';
+      } else {
+        card.style.display = 'none';
+      }
+    });
+  });
+});
 
 
 
